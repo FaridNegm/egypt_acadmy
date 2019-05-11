@@ -1,0 +1,21 @@
+*{
+    font-family: Changa;
+}
+
+.invalid-feedback strong{
+    color: red;
+}
+
+.label-icon{
+    padding: 6px 6px;
+}
+.label-icon i{
+    font-size: 12px;
+}
+.label-icon:hover{
+    cursor: pointer;
+}
+
+.navigation>li ul li a{
+    font-size: 11px;
+}

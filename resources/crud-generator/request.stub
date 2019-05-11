@@ -1,0 +1,37 @@
+<?php
+
+namespace App\Http\Requests;
+
+class {{modelName}}Request extends Request
+{
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        $this->setLangNamespace('{{crudName}}');
+        if ($this->route()->getName() == '{{crudName}}.store') {
+            return {{validationRules}};
+        } elseif ($this->route()->getName() == '{{crudName}}.update') {
+            return {{validationRules}};
+        } elseif ($this->route()->getName() == '{{crudName}}.action') {
+            return [
+                'ids' => 'required'
+            ];
+        }
+
+        return [];
+    }
+
+    /**
+     * @return array
+     */
+    public function messages()
+    {
+        return [
+            'ids.required' => trans('app.please_select_items'),
+        ];
+    }
+}
