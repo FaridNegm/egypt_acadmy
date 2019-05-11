@@ -97,7 +97,7 @@
 
                         <input type="hidden" name="df_image" value="{{$user->image}}" />
 
-                        <img src="{{ url('storage/app/public/uploads/'.$user->image) }}" name="df_image" style="width:70px;height:80px;"/>
+                        <img src="{{ url('Admin/images/users/'.$user->image) }}" name="df_image" style="width:70px;height:80px;"/>
 
                         @if ($errors->has('image'))
                             <span class="invalid-feedback" role="alert">

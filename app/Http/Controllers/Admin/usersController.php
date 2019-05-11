@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Session;
 use App\users;
-use App\User;
 use DB;
 
 class usersController extends Controller
@@ -66,13 +65,6 @@ class usersController extends Controller
             'phone' => request('phone'),
             'image' => $name,
             'status' => $status,
-        ]);
-
-        User::create([
-            'name' => request('name'),
-            'email' => request('email'),
-            'password' => Hash::make(request('password')),
-            'status' => 0,
         ]);
 
         Session::flash('success' , trans('app.Completed Added Successfully'));

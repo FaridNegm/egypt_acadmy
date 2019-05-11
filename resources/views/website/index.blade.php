@@ -10,17 +10,17 @@
 <![endif]-->
 <title>أكاديمية مصر العربية</title>
 <!-- BOOTSTRAP CORE CSS -->
-<link href="website/css/bootstrap.css" rel="stylesheet" />
+<link href="{{ url('website') }}/css/bootstrap.css" rel="stylesheet" />
 <!-- ION ICONS STYLES -->
-<link href="website/css/ionicons.css" rel="stylesheet" />
+<link href="{{ url('website') }}/css/ionicons.css" rel="stylesheet" />
 <!-- FONT AWESOME ICONS STYLES -->
-<link href="website/css/font-awesome.css" rel="stylesheet" />
+<link href="{{ url('website') }}/css/font-awesome.css" rel="stylesheet" />
 <!-- FANCYBOX POPUP STYLES -->
-<link href="website/js/source/jquery.fancybox.css" rel="stylesheet" />
+<link href="{{ url('website') }}/js/source/jquery.fancybox.css" rel="stylesheet" />
 <!-- STYLES FOR VIEWPORT ANIMATION -->
-<link href="website/css/animations.min.css" rel="stylesheet" />
+<link href="{{ url('website') }}/css/animations.min.css" rel="stylesheet" />
 <!-- CUSTOM CSS -->
-<link href="website/css/style-green.css" rel="stylesheet" />
+<link href="{{ url('website') }}/css/style-green.css" rel="stylesheet" />
 
 <!--begin::Web font -->
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
@@ -644,22 +644,22 @@ Academic, education, training, development, job creation and youth rehabilitatio
 
 <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
 <!-- CORE JQUERY -->
-<script src="website/js/jquery-1.11.1.js"></script>
+<script src="{{ url('website') }}/js/jquery-1.11.1.js"></script>
 <!-- BOOTSTRAP SCRIPTS -->
-<script src="website/js/bootstrap.js"></script>
+<script src="{{ url('website') }}/js/bootstrap.js"></script>
 <!-- EASING SCROLL SCRIPTS PLUGIN -->
-<script src="website/js/vegas/jquery.vegas.min.js"></script>
+<script src="{{ url('website') }}/js/vegas/jquery.vegas.min.js"></script>
 <!-- VEGAS SLIDESHOW SCRIPTS -->
-<script src="website/js/jquery.easing.min.js"></script>
+<script src="{{ url('website') }}/js/jquery.easing.min.js"></script>
 <!-- FANCYBOX PLUGIN -->
-<script src="website/js/source/jquery.fancybox.js"></script>
+<script src="{{ url('website') }}/js/source/jquery.fancybox.js"></script>
 <!-- ISOTOPE SCRIPTS -->
-<script src="website/js/jquery.isotope.js"></script>
+<script src="{{ url('website') }}/js/jquery.isotope.js"></script>
 <!-- VIEWPORT ANIMATION SCRIPTS   -->
-<script src="website/js/appear.min.js"></script>
-<script src="website/js/animations.min.js"></script>
+<script src="{{ url('website') }}/js/appear.min.js"></script>
+<script src="{{ url('website') }}/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
-<script src="website/js/custom.js"></script>
+<script src="{{ url('website') }}/js/custom.js"></script>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
